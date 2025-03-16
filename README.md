@@ -1,5 +1,5 @@
-# Tugas_Pertemuan1
-Tugas Pertemuan 1, Mata Kuliah = Pemrograman Web
+# Tugas Pertemuan 1
+Mata Kuliah : Pemrograman Web
 
 Anggota Kelompok :
 1. Alicya Khusnul Chotimah (3012310051)
