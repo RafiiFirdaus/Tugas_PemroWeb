@@ -1,0 +1,53 @@
+#kalender{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev{
+    position: absolute;
+    top: 2%;
+    left: 36%;
+    border: 20px solid #4db5ff;
+    cursor: pointer;
+}
+
+.next{
+    position: absolute;
+    top: 2%;
+    right: 36%;
+    border: 20px solid #4db5ff;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #b1d8f5;
+}
+
+.button{
+    padding: 3px;
+    background-color: #4db5ff;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+p{
+    padding: 10px;
+}
+
+
+table{
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid #cac7c7;
+}
+
+thead{
+    height: 40px;
+    color: aliceblue;
+    background-color: #4db5ff;
+}
