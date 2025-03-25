@@ -1,0 +1,33 @@
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    display: flex;
+}
+
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(10, 99, 10);
+}
+
+.bola{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 25%;
+    /* transform: translate(-50%, -50%); */
+    animation: bola 5s infinite linear running;
+    
+}
+
+@keyframes bola{
+    0% {opacity: 0; left: 0px; top: 0px;}
+    20% {opacity: 1; left: 0px; top: 0px;}
+    40% {opacity: 1; left: 650px; top: 0px;}
+    60% {opacity: 1; left: 650px; top: 175px;}
+    80% {opacity: 1; left: 0px; top: 175px;}
+    100% {opacity: 0; left: 0px; top: 0px;}
+}
