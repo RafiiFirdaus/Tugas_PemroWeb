@@ -1,0 +1,50 @@
+.container{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    border: 2px solid #000000;
+}
+
+.min{
+    font-size: 70px;
+    color: green;
+}
+
+.separator{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.sec{
+    font-size: 70px;
+    color: rgb(255, 111, 111);
+}
+
+.Bhijau{
+    background-color: green;
+    margin: 3px;
+    border: none;
+    height: 35px;
+    color: white;
+}
+
+.Bkuning{
+    background-color: yellow;
+    border: none;
+    margin: 3px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.Bmerah{
+    background-color: red;
+    border: none;
+    margin: 3px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+}
